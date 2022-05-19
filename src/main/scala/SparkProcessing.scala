@@ -25,7 +25,7 @@ def archiveProcessing(month: Int, year: Int, repoID: Int, repoName: String, dele
   val zippedData = emptyDirectory(zipDirPath)
   val unzippedData = emptyDirectory(unzipDirPath)
 
-  for(day <- 1 to 1/*maxDay*/){
+  for(day <- 1 to maxDay){
     // setting up files
     val zippedDay = emptyDirectory(s"$zipDirPath/$day")
     val unzippedDay = emptyDirectory(s"$unzipDirPath/$day")
