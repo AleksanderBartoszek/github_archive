@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
 
 libraryDependencies ++= Seq(
   "com.lihaoyi" %% "requests" % "0.7.0",
-  "com.lihaoyi" %% "ujson" % "1.6.0",
+  "com.lihaoyi" %% "ujson" % "2.0.0",
   "com.github.losizm" %% "little-io" % "8.0.0",
   ("org.apache.spark" %% "spark-core" % "3.2.0" % "provided").cross(CrossVersion.for3Use2_13),
   ("org.apache.spark" %% "spark-sql" % "3.2.0" % "provided").cross(CrossVersion.for3Use2_13)
