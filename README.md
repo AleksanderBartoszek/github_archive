@@ -2,7 +2,7 @@
 
 ## Application roadmap:
 - get user input
-- get repository id from given name for faster processing`*`
+- get repository id with given name for faster processing`*`
 - download requested data
 - unzip downloaded files
 - process data separated into days
@@ -11,13 +11,7 @@
 `*` - I assumed that comparing numbers is faster than strings in Spark, althought I couldn't find definite answer yet. 
 
 ## How to use it
-Project is packed to git bundle named `AleksanderBartoszek.bundle` 
-to unpack repository run:
-`git clone <path_to_the_bundle>`
-
-I didn't manage to solve all problems with dependencies creating .jar package in time, so app is currently accessible by running it in sbt shell or using IDE (in Intellij make sure that "Add dependencies with "provided" scope to classpath" in run configuration is checked)
-
-Command to run it in sbt shell:
+In sbt shell with command:
 `run {args}`
 
 for example:
