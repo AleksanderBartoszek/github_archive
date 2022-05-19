@@ -53,6 +53,5 @@ Format: `7.1.2022 spring-framework 58 1`
 - App requires thorough testing for missed errors
 - Package it into .jar
 - Add handling incorrect user input
-- Could use some tidying for more readable code
 - Could use some optimizing
 - There is a lot of room for new features
